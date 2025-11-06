@@ -1,0 +1,25 @@
+{
+  "blocks": [
+    {
+      "name": "Hero",
+      "path": "/blocks/hero"
+    },
+    {
+      "name": "Cards",
+      "path": "/blocks/cards"
+    },
+    {
+      "name": "Columns",
+      "path": "/blocks/columns"
+    },
+    {
+      "name": "Header",
+      "path": "/blocks/header"
+    },
+    {
+      "name": "Footer",
+      "path": "/blocks/footer"
+    }
+  ]
+}
+

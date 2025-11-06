@@ -1,0 +1,14 @@
+{
+  "project": "Volkswagen Website",
+  "host": "main--volkswagen--myorg.hlx.page",
+  "plugins": [
+    {
+      "id": "library",
+      "title": "Library",
+      "environments": ["edit"],
+      "url": "/tools/sidekick/library.html",
+      "includePaths": ["**.docx**"]
+    }
+  ]
+}
+

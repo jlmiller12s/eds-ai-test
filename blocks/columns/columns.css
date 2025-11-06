@@ -1,0 +1,35 @@
+.columns > div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.columns img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.columns > div > div {
+  flex: 1;
+  background-color: var(--background-light);
+  padding: 32px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.columns > div > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.columns > div > div h3 {
+  margin-top: 0;
+  color: var(--primary-blue);
+}
+
+@media (width >= 900px) {
+  .columns > div {
+    flex-direction: unset;
+  }
+}
+
