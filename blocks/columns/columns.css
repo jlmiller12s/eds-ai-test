@@ -7,6 +7,18 @@
 .columns img {
   width: 100%;
   border-radius: 8px;
+  display: block;
+}
+
+.columns picture {
+  display: block;
+  margin-bottom: 16px;
+  line-height: 0;
+}
+
+.columns picture img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .columns > div > div {

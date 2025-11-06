@@ -180,17 +180,30 @@ main img {
 }
 
 /* sections */
+main > div {
+  padding: 64px 16px;
+}
+
 main .section {
   padding: 64px 16px;
 }
 
 @media (width >= 600px) {
+  main > div {
+    padding: 64px 32px;
+  }
+  
   main .section {
     padding: 64px 32px;
   }
 }
 
 @media (width >= 900px) {
+  main > div > div {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
   .section > div {
     max-width: 1200px;
     margin: auto;
@@ -198,7 +211,17 @@ main .section {
 }
 
 /* section metadata */
+main > div.light,
 main .section.light {
   background-color: var(--background-light);
+}
+
+/* Ensure blocks display properly even before JS loads */
+main .block {
+  display: block;
+}
+
+main .hero-container {
+  padding: 0;
 }
 
