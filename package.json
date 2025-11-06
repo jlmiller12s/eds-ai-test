@@ -26,9 +26,8 @@
   },
   "homepage": "https://github.com/yourusername/volkswagen-aem#readme",
   "devDependencies": {
-    "@adobe/aem-cli": "^15.0.0",
+    "@adobe/aem-cli": "^16.15.12",
     "eslint": "^8.50.0",
     "stylelint": "^15.10.0"
   }
 }
-

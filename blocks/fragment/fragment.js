@@ -8,6 +8,10 @@ import {
   decorateMain,
 } from '../../scripts/scripts.js';
 
+import {
+  loadBlocks,
+} from '../../scripts/lib-franklin.js';
+
 /**
  * Loads a fragment.
  * @param {string} path The path to the fragment

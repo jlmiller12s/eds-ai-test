@@ -2,6 +2,20 @@ import {
   sampleRUM,
 } from './aem.js';
 
+import {
+  buildBlock,
+  loadHeader,
+  loadFooter,
+  decorateButtons,
+  decorateIcons,
+  decorateSections,
+  decorateBlocks,
+  decorateTemplateAndTheme,
+  waitForLCP,
+  loadBlocks,
+  loadCSS,
+} from './lib-franklin.js';
+
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
 /**
